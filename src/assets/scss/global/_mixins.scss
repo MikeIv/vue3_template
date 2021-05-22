@@ -1,0 +1,24 @@
+// tag style
+@mixin v-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  overflow: hidden;
+}
+
+// Font-size
+
+@mixin vue-h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1.25;
+}
+
+@mixin vue-h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.25;
+}
