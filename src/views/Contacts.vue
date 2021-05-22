@@ -7,7 +7,7 @@
       </a>
       <div class="header__left-line"></div>
 
-      <h1 class="header__page-h1">Песочница</h1>
+      <h1 class="header__page-h1">Контакты</h1>
     </div>
 
     <nav class="page-nav">
@@ -17,14 +17,22 @@
         <li class="page-nav__item"><a href="/contacts" class="page-nav__link">Контакты</a></li>
       </ul>
     </nav>
-
   </header>
-  <div class="about">
-    <h1>Песочница</h1>
-    <img alt="Vue logo" src="../assets/logo.png" width="50" height="auto">
-  </div>
-</template>
 
+  <main>
+    <section class="contacts">
+      <h1 class="v-hidden">Контакты</h1>
+
+      <article class="contacts__form">
+        <a href="https://t.me/Mike_Iv" class="contacts__item" target="_blank">
+          <img src="../assets/img/telegram.svg" alt="иконка" class="contacts__icon">
+          <p class="contacts__txt">@Mike_Iv</p>
+        </a>
+
+      </article>
+    </section>
+  </main>
+</template>
 
 
 <style lang="scss">

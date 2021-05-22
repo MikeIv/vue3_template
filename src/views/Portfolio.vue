@@ -7,7 +7,7 @@
       </a>
       <div class="header__left-line"></div>
 
-      <h1 class="header__page-h1">Песочница</h1>
+      <h1 class="header__page-h1">Портфолио</h1>
     </div>
 
     <nav class="page-nav">
@@ -20,7 +20,7 @@
 
   </header>
   <div class="about">
-    <h1>Песочница</h1>
+    <h1>Портфолио</h1>
     <img alt="Vue logo" src="../assets/logo.png" width="50" height="auto">
   </div>
 </template>

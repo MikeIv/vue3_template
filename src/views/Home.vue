@@ -10,16 +10,20 @@
 
         <nav class="main-nav">
           <ul class="main-nav__list">
-            <li class="main-nav__item"><a href="/portfolio" class="main-nav__link">Портфолио</a></li>
-            <li class="main-nav__item"><a href="/tools" class="main-nav__link">Инструменты</a></li>
-            <li class="main-nav__item"><a href="/sandbox" class="main-nav__link">Песочница</a></li>
-            <li class="main-nav__item"><a href="/contacts" class="main-nav__link">Контакты</a></li>
+            <li class="main-nav__item"><router-link to="/portfolio" class="main-nav__link">Портфолио</router-link></li>
+            <li class="main-nav__item"><router-link to="/tools" class="main-nav__link">Инструменты</router-link></li>
+            <li class="main-nav__item"><router-link to="/sandbox" class="main-nav__link">Песочница</router-link></li>
+            <li class="main-nav__item"><router-link to="/contacts" class="main-nav__link">Контакты</router-link></li>
           </ul>
         </nav>
+
+        <div  class="main-nav">
+<!--          <router-link to="/">Home</router-link> |-->
+
+        </div>
+
       </div>
     </header>
-
-    <h1>Главная страница</h1>
   </div>
 </template>
 

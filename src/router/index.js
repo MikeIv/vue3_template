@@ -8,9 +8,24 @@ const routes = [
     component: Home
   },
   {
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: () => import( '../views/Portfolio.vue')
+  },
+  {
+    path: '/tools',
+    name: 'Tools',
+    component: () => import( '../views/Tools.vue')
+  },
+  {
     path: '/sandbox',
     name: 'Sandbox',
     component: () => import( '../views/Sandbox.vue')
+  },
+  {
+    path: '/contacts',
+    name: 'Contacts',
+    component: () => import( '../views/Contacts.vue')
   }
 ]
 
