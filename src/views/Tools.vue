@@ -1,29 +1,350 @@
 <template>
-  <header class="header-pages">
+<!--  <header class="header-pages">-->
 
-    <div class="header__page-wrapper">
-      <a href="/">
-        <img src="../assets/img/my-logo.svg" alt="logo" class="header__main-logo">
-      </a>
-      <div class="header__left-line"></div>
+<!--    <div class="header__page-wrapper">-->
+<!--      <a href="/">-->
+<!--        <img src="../assets/img/my-logo.svg" alt="logo" class="header__main-logo">-->
+<!--      </a>-->
+<!--      <div class="header__left-line"></div>-->
 
-      <h1 class="header__page-h1">Инструменты</h1>
-    </div>
+<!--      <h1 class="header__page-h1">Инструменты</h1>-->
+<!--    </div>-->
 
-    <nav class="page-nav">
-      <ul class="page-nav__list">
-        <li class="page-nav__item"><a href="/portfolio" class="page-nav__link">Портфолио</a></li>
-        <li class="page-nav__item"><a href="/tools" class="page-nav__link">Инструменты</a></li>
-        <li class="page-nav__item"><a href="/contacts" class="page-nav__link">Контакты</a></li>
-      </ul>
-    </nav>
+<!--    <nav class="page-nav">-->
+<!--      <ul class="page-nav__list">-->
+<!--        <li class="page-nav__item"><a href="/portfolio" class="page-nav__link">Портфолио</a></li>-->
+<!--        <li class="page-nav__item"><a href="/sandbox" class="page-nav__link">Песочница</a></li>-->
+<!--        <li class="page-nav__item"><a href="/contacts" class="page-nav__link">Контакты</a></li>-->
+<!--      </ul>-->
+<!--    </nav>-->
+<!--  </header>-->
 
-  </header>
-  <div class="about">
-    <h1>Инструменты</h1>
-    <img alt="Vue logo" src="../assets/logo.png" width="50" height="auto">
-  </div>
+
+  <main>
+    <section class="tools">
+      <h1 class="v-hidden">Инструменты</h1>
+
+      <article class="tools__part">
+
+        <ul class="tools__list tools__list--logo">
+          <li class="tools__item tools__item--logo">
+            <a href="#html" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/html5-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#css" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/css-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/js-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+
+          <li class="tools__item tools__item--logo">
+            <a href="#vue" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/vue-js-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/less-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/sass-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/gitlab-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/github-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/gulp-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo" >
+              <img class="tools__item-link-logo" src="../assets/img/nodejs-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#wordpress" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/wordpress-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#phpstorm" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/phpstorm-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#vscode" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/vsc-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#figma" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/figma-logo.svg" alt="логотип">
+            </a>
+          </li>
+
+          <li class="tools__item tools__item--logo">
+            <a href="#" class="tools__item-link tools__item-link--logo">
+              <img class="tools__item-link-logo" src="../assets/img/bootstrap-new-logo.svg" alt="логотип">
+            </a>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Wordpress -->
+      <article id="wordpress" class="tools__part">
+        <img class="tools__logo" src="../assets/img/wordpress_logo.svg" alt="логотип wordpress">
+        <h3 class="tools__h3">Plug-In</h3>
+        <ul class="tools__list">
+          <li class="tools__item"><p class="tools__item-txt">Cyr-To-Lat</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Query Monitor</p></li>
+          <li class="tools__item"><p class="tools__item-txt">WPS Hide Login</p></li>
+          <li class="tools__item"><p class="tools__item-txt">ACF</p></li>
+          <li class="tools__item"><p class="tools__item-txt">WP Super Cache</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Polylang</p></li>
+          <li class="tools__item"><p class="tools__item-txt">CoBlocks</p></li>
+          <li class="tools__item"><p class="tools__item-txt">BackWPup</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Lightbox with PhotoSwipe</p></li>
+        </ul>
+
+        <h3 class="tools__h3">Полезное</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--link">
+            <a href="https://misha.agency/" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">Студия Миши Рудрастых</p>
+          </li>
+          <li class="tools__item tools__item--link">
+            <a href="https://wpruse.ru/" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">Финты Вордпресс</p>
+          </li>
+          <li class="tools__item tools__item--link">
+            <a href="developer.wordpress.org/resource/dashicons" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">Иконки Вордпресс</p>
+          </li>
+        </ul>
+      </article>
+
+      <!-- PHPSotrm -->
+      <article id="phpstorm" class="tools__part">
+        <div class="tools__header-block">
+          <img class="tools__logo" src="../assets/img/icon-phpstorm.svg" alt="логотип wordpress">
+          <h2 class="tools__h2">PHPStorm</h2>
+        </div>
+
+
+        <h3 class="tools__h3">Plug-In</h3>
+        <ul class="tools__list">
+          <li class="tools__item"><p class="tools__item-txt">.ignore</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Material Theme UI</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Grazie</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Rainbow Brackets</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Indent Rainbow</p></li>
+        </ul>
+
+        <h3 class="tools__h3">Полезное</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--link">
+            <a href="https://oxozle.com/2016/05/07/nastraivaem-udobnuyu-konsol-v-mac-iterm2-oh-my-zsh/" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">Настройка Терминала на Mac OS</p>
+          </li>
+        </ul>
+
+        <h3 class="tools__h3">Cmd</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--cmd">
+            <p class="tools__item-txt tools__item-txt--description">Установка Gulp на Mac OS</p>
+            <div class="tools__item-wrapper">
+              <p class="tools__item-txt-cmd">sudo npm install gulp -g</p>
+            </div>
+          </li>
+
+          <li class="tools__item tools__item--cmd">
+            <p class="tools__item-txt tools__item-txt--description">Git commit дерево в консоли</p>
+            <div class="tools__item-wrapper">
+              <p class="tools__item-txt-cmd">git log --graph --pretty=oneline --abbrev-commit --all --decorate</p>
+            </div> <div class="tools__item-wrapper">
+            <p class="tools__item-txt-cmd">alias gitlog='git log --graph --pretty=oneline --abbrev-commit --all --decorate'</p>
+          </div>
+          </li>
+        </ul>
+
+
+      </article>
+
+      <!-- VS Code -->
+      <article id="vscode" class="tools__part">
+        <div class="tools__header-block">
+          <img class="tools__logo" src="../assets/img/vsc_logo.svg" alt="логотип wordpress">
+          <h2 class="tools__h2">VS Code</h2>
+        </div>
+
+        <h3 class="tools__h3">Plug-In</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--link">
+            <a href="https://htmlacademy.ru/blog/education/collections/vscode-addons" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">Плагины для VS Code</p>
+          </li>
+          <li class="tools__item"><p class="tools__item-txt">SVG Preview</p></li>
+          <li class="tools__item"><p class="tools__item-txt">Inliner</p></li>
+        </ul>
+      </article>
+
+
+      <!-- Vue js -->
+      <article id="vue" class="tools__part">
+        <div class="tools__header-block">
+          <img class="tools__logo" src="../assets/img/vue-logo.svg" alt="логотип wordpress">
+          <h2 class="tools__h2">Vue</h2>
+        </div>
+
+        <h3 class="tools__h3">Директивы</h3>
+        <ul class="tools__list">
+          <li class="tools__item"><p class="tools__item-txt">v-bind { : }</p></li>
+          <li class="tools__item"><p class="tools__item-txt">v-on { @ } </p></li>
+          <li class="tools__item"><p class="tools__item-txt">v-if / v-else-if / v-else</p></li>
+          <li class="tools__item"><p class="tools__item-txt">v-for</p></li>
+          <li class="tools__item"><p class="tools__item-txt">v-show</p></li>
+          <li class="tools__item"><p class="tools__item-txt">v-model</p></li>
+        </ul>
+
+        <h3 class="tools__h3">Plug-In</h3>
+        <ul class="tools__list">
+          <li class="tools__item"><p class="tools__item-txt">vue-cli-plugin-scss-base</p></li>
+        </ul>
+
+        <h3 class="tools__h3">Полезное</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--cmd">
+            <p class="tools__item-txt tools__item-txt--description">SASS при использовании webpack 4</p>
+            <div class="tools__item-wrapper">
+              <a href="https://cli.vuejs.org/ru/guide/css.html#%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D1%81%D1%8Bn%D0%BE%D0%BA-%D0%BD%D0%B0-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B" class="tools__item-txt-cmd">npm install -D sass-loader@^10 sass</a>
+            </div>
+          </li>
+          <li class="tools__item tools__item--cmd">
+            <p class="tools__item-txt tools__item-txt--description">vue.config.js</p>
+            <div class="tools__item-wrapper">
+              <a href="https://stackoverflow.com/questions/58184549/sass-loader-error-invalid-options-object-that-does-not-match-the-api-schema" class="tools__item-txt-cmd">module.exports = {
+                css: {
+                loaderOptions: {
+                sass: {
+                additionalData: `@import "@/assets/scss/settings.scss";`
+                }
+                }
+                }
+                }</a>
+            </div>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Figma&Design -->
+      <article id="figma" class="tools__part">
+        <div class="tools__header-block">
+          <img class="tools__logo" src="../assets/img/figma-logo.svg" alt="логотип wordpress">
+          <h2 class="tools__h2">Дизайн</h2>
+        </div>
+
+        <h3 class="tools__h3">Полезное</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--cmd">
+            <p class="tools__item-txt tools__item-txt--description">Заглушки для изображений</p>
+            <div class="tools__item-wrapper">
+              <p class="tools__item-txt-cmd">https://via.placeholder.com/200x50</p>
+            </div>
+          </li>
+          <li class="tools__item tools__item--cmd">
+            <p class="tools__item-txt tools__item-txt--description">Заглушки изображения</p>
+            <div class="tools__item-wrapper">
+              <p class="tools__item-txt-cmd">https://placeimg.com/400/150/any</p>
+            </div>
+          </li>
+        </ul>
+      </article>
+
+      <!-- HTML -->
+      <article id="html" class="tools__part">
+        <div class="tools__header-block">
+          <img class="tools__logo" src="../assets/img/html5-logo.svg" alt="логотип wordpress">
+          <h2 class="tools__h2">HTML</h2>
+        </div>
+
+
+        <h3 class="tools__h3">Полезное</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--link">
+            <a href="https://habr.com/ru/company/macloud/blog/555082/" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">Базовая структура HTML-документа</p>
+          </li>
+          <li class="tools__item tools__item--link">
+            <a href="https://habr.com/ru/company/macloud/blog/555400/" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">HTML-теги и атрибуты</p>
+          </li>
+        </ul>
+      </article>
+
+
+      <!-- CSS -->
+      <article id="css" class="tools__part">
+        <div class="tools__header-block">
+          <img class="tools__logo" src="../assets/img/css-logo.svg" alt="логотип wordpress">
+          <h2 class="tools__h2">CSS</h2>
+        </div>
+
+
+        <h3 class="tools__h3">Полезное</h3>
+        <ul class="tools__list">
+          <li class="tools__item tools__item--link">
+            <a href="http://prgssr.ru/development/oformlenie-soderzhimogo-use-v-svg-s-pomoshyu-css.html" class="tools__item-link" target="_blank"></a>
+            <p class="tools__item-txt">'use' в SVG с помощью CSS</p>
+          </li>
+        </ul>
+      </article>
+
+    </section>
+
+  </main>
 </template>
+
+
+
+
+<script>
+
+
+</script>
+
 
 
 <style lang="scss">

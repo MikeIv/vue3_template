@@ -1,0 +1,281 @@
+.tools {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 100rem;
+  min-height: 10rem;
+
+  margin: 0 auto;
+  padding: 0;
+
+  background-color: $white;
+
+
+}
+
+
+@media screen and (max-width: 1190px) {
+  .tools {
+    max-width: 80rem;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 5rem;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .tools {
+    max-width: 60rem;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .tools {
+    max-width: 40rem;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+}
+
+
+
+.tools__part {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  margin: 0;
+  margin-bottom: 7rem;
+  padding: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+
+  border-bottom: 1px solid $lightgray;
+}
+
+
+
+
+.tools__header-block {
+  display: flex;
+}
+
+.tools__logo {
+  width: auto;
+  height: 6rem;
+
+  margin: 0;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  padding: 0;
+
+  object-fit: cover;
+}
+
+
+
+.tools__h2 {
+  display: flex;
+
+  margin: 0;
+  margin-bottom: 4rem;
+  padding: 0;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+
+  font-family: inherit;
+  font-size: 3em;
+  font-weight: bold;
+  color: $dark;
+
+  user-select: none;
+}
+
+.tools__h3 {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+
+  font-family: inherit;
+  font-size: 2em;
+  font-weight: bold;
+  color: $gray;
+
+  user-select: none;
+}
+
+.tools__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 100%;
+
+  margin: 0;
+  margin-bottom: 5rem;
+  padding: 0;
+
+}
+
+.tools__list--logo {
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-top: 6rem;
+
+  border-top: 1px solid $lightgray;
+}
+
+.tools__item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: auto;
+  min-height: 4rem;
+
+  margin: 0;
+  margin-bottom: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+
+  background-color: $exlight;
+  transition: 0.3s;
+}
+
+.tools__item--cmd {
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: transparent;
+}
+
+.tools__item--logo {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0;
+
+  background-color: transparent;
+}
+
+
+
+.tools__item--link:hover {
+  background-color: $light;
+  transition: 0.3s;
+}
+
+.tools__item-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.tools__item-link:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+
+.tools__item-link--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.tools__item-link-logo {
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  object-fit: contain;
+}
+
+.tools__item-wrapper {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: $dark;
+}
+
+.tools__item-txt {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: $dark;
+  transition: 0.3s;
+}
+
+.tools__item-txt--description {
+  margin-bottom: 1rem;
+  text-align: left;
+  font-weight: normal;
+
+  user-select: none;
+}
+
+.tools__item-txt-cmd {
+
+  text-align: left;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight:  normal;
+  color: $exlightgray;
+
+  overflow-x: initial;
+}
+
+
+
+
+.tools__item--link:hover .tools__item-txt {
+  color: $exlight;
+  transition: 0.3s;
+}
