@@ -38,3 +38,12 @@ export default {
   }
 }
 </script>
+
+
+
+<style lang="scss">
+
+.header-section {
+  display: none;
+}
+</style>

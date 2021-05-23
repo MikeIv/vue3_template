@@ -366,4 +366,8 @@
   box-sizing: border-box;
 }
 
+.header-section {
+  display: block;
+}
+
 </style>
